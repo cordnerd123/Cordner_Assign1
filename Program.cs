@@ -92,7 +92,7 @@ namespace Cordner_Assign1
                     usft = "You forgot something in your string";
                     return usft;
                 }
-            }
+            } 
 
             // break hr mm ss into array
             for (int i = 0; i < 3; i++)
@@ -182,6 +182,7 @@ namespace Cordner_Assign1
 
         public static void PalindromePairs(string[] words)
         {
+
             if (words.Length < 2)
             {
                 Console.WriteLine("You need to be more like my wife.....wordy");
